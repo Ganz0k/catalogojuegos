@@ -4,12 +4,11 @@
  */
 package catalogojuegos;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  *
- * @author luisg
+ * @author Luis Gonzalo Cervantes Rivera | 00000228549, Gabriel Francisco
+ * Piñuelas Ramos | 00000230626, Ricardo Pacheco Urias | 00000229178, Abraham
+ * Sered Gómez Martínez | 00000228796
  */
 public class CatalogoJuegos {
 
