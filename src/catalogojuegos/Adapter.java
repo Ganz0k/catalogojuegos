@@ -49,7 +49,7 @@ public class Adapter implements JuegoPC {
     @Override
     public Requerimientos getRequerimientos() {
         Integer gpuGB = this.juegoComputadora.getMinimoMemoriaGPUEnMB() / 1024;
-        Integer HDDGb = this.juegoComputadora.getMinimoMemoriaGPUEnMB() / 1024;
+        Integer HDDGb = this.juegoComputadora.getAlmacenamientoRequeridoEnMB() / 1024;
         Integer RAMGb = this.juegoComputadora.getRamRequeridaEnMB() / 1024;
         Double cpuGhz = this.juegoComputadora.getVelocidadNucleoEnGHZ();
         Integer coresNum = this.juegoComputadora.getNucleosRequeridos();
